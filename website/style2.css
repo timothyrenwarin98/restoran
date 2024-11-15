@@ -1,0 +1,563 @@
+*.html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgba(255, 253, 253, 0.904);
+    width: 100%;
+    height: 6vw;
+    position: fixed;
+    z-index: 1000;  
+    top: 0; 
+}
+
+.navbar-logo {
+    position: relative;
+    justify-content: right;
+    font-size: 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 2vw;
+    left: 2vw;
+}
+
+.span {
+    color: rgba(255, 0, 0, 0.978);
+    font-size: 3vw;
+    font-style: italic;
+}
+.navbar-nav {
+    position: relative;
+    width: 35vw;
+    left: 55vw;
+    top: -1vw;
+    font-size: 1vw;
+}
+
+.home {
+    padding: 1vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: red;
+    background-color:none;
+    border-radius: 1vw;
+}
+
+.home:hover {
+    background-color: #c1c0c0;
+    transition-delay: 0.1s;
+}
+.about {
+    padding: 1vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: red;
+    background-color:none;
+    border-radius: 1vw;
+}
+
+.about:hover {
+    background-color: #c1c0c0;
+    transition-delay: 0.1s;
+}
+
+.contact {
+    padding: 1vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: red;
+    background-color:none;
+    border-radius: 1vw;
+}
+.contact:hover{
+    background-color: #c1c0c0;
+    transition-delay: 0.1s;
+
+}
+/*CONTAINER 1*/
+.container-1 {
+    position: relative;
+    height: 40vw;
+    width: 100%;
+    top: 5.9vw;
+    background-color: black;
+}
+
+.img-background {
+    position:absolute;
+    height: 40vw;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.logo {
+    position: absolute;
+    height: 15vw;
+    top: 5vw;
+    left: 43vw;
+    border-radius: 50%;
+    padding: 0.4%;
+    background-color: #9f5d07;
+}
+
+.judul { 
+    position: absolute;
+    background-color: none;
+    color: #ef8d0b;
+    width: 45vw;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    top: 18vw;
+    left: 28vw;
+    text-transform: uppercase;
+}
+
+.keterangan {
+    position: absolute;
+    background-color: none;
+    width: 45vw;
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+    top: 23vw;
+    left: 28vw;
+    color: #f5f3f2;
+    text-transform: capitalize;
+}
+
+
+.reservasi {
+    position:relative;
+    background-color: rgb(220, 114, 15);
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding: 1vw;
+    border-radius: 1vw;
+    text-transform: uppercase;
+    color: white;
+}
+
+.reservasi:hover {
+    color: rgb(131, 76, 5);
+    font-size:3.5;
+    transition-delay: 0.2s;
+
+
+}
+
+.menu {
+    position: relative;
+    background-color: rgb(220, 114, 15);
+    font-size: 1.5vw;
+    left: -9;
+    top: 6;
+    text-decoration: none;
+    padding: 1vw;
+    border-radius: 1vw;
+    text-transform: uppercase;
+    color: white;
+}
+
+.menu:hover {
+    color: rgb(131, 76, 5);
+    font-size:3.5;
+    transition-delay: 0.3s
+
+}
+@media (max-width: 600px) {
+    .container-1 {
+        flex-basis: 100%;
+    }
+    .img-background {
+        flex-basis: 100%;
+    }
+    .logo {
+        flex-basis: 100%;
+    }
+}
+/*CONTAINER 1 END*/
+
+
+/*CONTAINER 2*/
+.container-2 {
+    position: re;
+    background-color: rgb(174, 122, 44);
+    height: 0.5vw;
+    width: 100%;
+    top: 50vw;
+}
+
+.img-menu-1 {
+    position: relative;
+    height: 10vw;
+    width: 10vw;   
+    border-radius: 50%;
+    left: 1vw;
+    top: -5vw;
+}
+
+.img-menu-2 {
+    position: relative;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    left: 10vw;
+    top: -5vw;
+
+}
+
+.img-menu-3 {
+    position: relative;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    right: -20vw;
+    top: -5vw;
+
+}
+
+.img-menu-4 {
+    position: relative;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    right: -30vw;
+    top: -5vw;
+}
+
+@media  (max-width: 600px) {
+    .img-menu-1 {
+        flex-basis: 100%;
+    }
+    .img-menu-2 {
+        flex-basis: 100%;
+    }
+    .img-menu-3 {
+        flex-basis: 100%;
+    }
+    .img-menu-4 {
+        flex-basis: 100%;
+    }
+}
+
+/*CONTAINER 2 END*/
+
+
+/*CONTAINER 3*/
+.container-3 {
+    background-color: rgba(166, 75, 47, 0.329);
+    height: 20vw;
+    width: 100%;
+}
+.background-3 {
+    position:absolute;
+    height: 40vw;
+    width: 100%;
+    top: 20vw;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 35%;
+    
+    
+}
+
+.profil-perusahaan {
+    position: absolute;
+    background-color: rgb(250, 248, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    top: 66vw;
+    left: 40vw;
+    z-index: 1000;
+    text-transform: capitalize;
+    width: 15vw; /* Lebar kontainer */
+    height: 1vw;
+    padding: 1vw; /* Ruang di dalam kontainer */
+    background-color: #e98d0bbd; /* Warna latar belakang */
+    border: 0vw solid #ccc; /* Garis batas */
+    border-radius: 10vw; /* Sudut melengkung */
+    box-shadow: 0 0.5vw 0.8vw rgba(0, 0, 0, 0.8); /* Bayangan */
+}
+
+.deskripsi-perusahaan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #f9f4f0;
+    font-size: 1.5vw;
+    top: 67vw;
+    left: 6vw;
+    line-height: 3vw;
+    height: 30vw;
+    width: 85vw; /* Lebar kontainer */
+    background-color: none; /* Warna latar belakang */
+    border-radius: 3vw; /* Sudut melengkung */
+}
+
+.background-video {
+    position: relative;
+    width: 100%;
+    height:auto;
+    left: 0vw;
+    top: 5vw;
+}
+/*CONTAINER 3 END*/
+
+/*CONTAINER 4*/
+.container-4 {
+    position: absolute;
+    background-color: rgb(8, 5, 5);
+    height: 25vw;
+    width: 100%;
+    top: 97.5vw;
+}
+/*CONTAINER 4 END*/
+
+/*CONTAINER 5*/
+.container-5 {
+    position: absolute;
+    background-color: rgb(7, 6, 12);
+    height: 30vw;
+    width: 100%;
+    top: 120vw;
+}
+
+.member-card {
+    position: relative;
+    background-color: #ccc;
+    width: 45vw;
+    height: 28vw;
+    left: 2vw;
+    top: -10vw;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 35%;
+    opacity: 0.4;
+}
+
+.h1-vip {
+    position: absolute;
+    background-color:none;
+    font-size: 5.5vw;
+    width: 45vw;
+    right: 1vw;
+    top: -15vw;
+    color: #f0f0f0;
+}
+
+/*CONTAINER 5 END*/
+
+/*CONTAINER 6*/
+.container-6 {
+    position: absolute;
+    background-color: rgb(174, 114, 4);
+    height: 30vw;
+    width: 100%;
+    right: 1v;
+    top: 150vw;
+    border-bottom-right-radius: 80%;
+}
+.available {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-transform: capitalize;
+}
+
+.grabfood {
+    position:absolute;
+    left: 15vw;
+    width: 10vw;
+    height: 10vw;
+    top: 10vw;
+    border-radius: 50%;
+}
+
+.grabfood:hover {
+    position:absolute;
+    left: 15vw;
+    width: 11vw;
+    height: 11vw;
+    top: 10vw;
+    border-radius: 50%;
+    transition: 0.2s;
+
+}
+.shopeefood {
+    position: absolute;
+    left:43vw;
+    top: 11vw;
+    width:10vw;
+    background-color: white;
+    padding: 0.3vw;
+}
+.shopeefood:hover {
+    position: absolute;
+    left:43vw;
+    top: 11vw;
+    width:11vw;
+    background-color: white;
+    padding: 0.5vw;
+    transition: 0.2s;
+ 
+}
+
+.gofood {
+    background-color: white;
+    position: absolute;
+    left: 73vw;
+    width: 12vw;
+    height: 7.3vw;
+    top: 11vw;
+    padding: 0.1vw;
+}
+
+.gofood:hover {
+    position: absolute;
+    right: 0vw;
+    width: 13vw;
+    top: 12vw;
+    padding: 0.2vw;
+    transition: 0.2s;
+
+}
+/*CONTAINER 6 END*/
+
+/*CONTAINER 7*/
+.container-7 {
+    position: absolute;
+    background-color: rgb(2, 1, 1);
+    height: 30vw;
+    width: 100%;
+    top:180vw;
+}
+
+.maps {
+    background-color: #828c969b;
+    position: absolute;
+    padding: 2%;
+    margin: 2%;
+    height: 20vw;
+    width: 40%;
+    left: 25vw;
+    top: 1vw;
+}
+.title-maps {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    font-size: 2vw;
+    top: -1vw;
+}
+
+.background-maps {
+    position: absolute;
+    width: 100%;
+    height: 30vw;
+    opacity: 50%;
+}
+
+/*CONTAINER 7 END*/
+
+/*CONTAINER 8*/
+.container-8 {
+    position: absolute;
+    background-color: rgb(1, 12, 3);
+    height: 30vw;
+    width: 100%;
+    top:210vw;
+}
+
+.namecompanny {
+    position: absolute;
+    background-color:none;
+    font-size: 2vw;
+    color: white;
+    left: 2vw;
+    top: 3vw;
+    text-transform:uppercase;
+}
+
+.alamat-footer {
+    position: absolute;
+    background-color: none;
+    font-size: 1.5vw;
+    color: white;
+    top: 7vw;
+    left: 2vw;
+    text-transform: capitalize;
+    margin: 2vw;
+    width: 20vw;
+}
+.observation-footer {
+    position: absolute;
+    background-color: none;
+    font-size: 1.5vw;
+    top: 19vw;
+    width:15vw;
+    left: 2vw;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.telepon-footer {
+    position: absolute;
+    background-color:none;
+    font-size: 1.5vw;
+    width: 13vw;
+    top: 23vw;
+    left: 4vw;
+    color: white;
+    text-transform: capitalize;
+}
+
+.icon-footer {
+
+    position: absolute;
+    top: 230vw;
+    left: 75vw;
+    background-color: none;
+    color: #cccccc23;
+    fill: currentColor;
+    padding: 1vw;
+    
+
+}
+
+.facebook {
+    width: 4vw;
+    height: 4vw;
+    color: #cccccc77;
+}
+
+.instagram {
+    width: 4vw;
+    height: 4vw;
+    color: #cccccc77;
+}
+
+.chrome {
+    width: 4vw;
+    height: 4vw;
+    color: #cccccc77;
+}
+
+.shopping-card {
+    width: 4vw;
+    height: 4vw;
+    color: #cccccc77;
+}
+
+/*CONTAINER 8 END*/
+
+
+
+
